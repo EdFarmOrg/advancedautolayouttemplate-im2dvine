@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12CF2BB0291BB93F006D8786 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF2BAF291BB93F006D8786 /* Item.swift */; };
+		12CF2BB2291BB9F8006D8786 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF2BB1291BB9F7006D8786 /* Section.swift */; };
 		46999B5E290B04CD0087F059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46999B5D290B04CD0087F059 /* AppDelegate.swift */; };
 		46999B60290B04CD0087F059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46999B5F290B04CD0087F059 /* SceneDelegate.swift */; };
 		46999B62290B04CD0087F059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46999B61290B04CD0087F059 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12CF2BAF291BB93F006D8786 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		12CF2BB1291BB9F7006D8786 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		46999B5A290B04CD0087F059 /* Advanced-Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced-Autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46999B5D290B04CD0087F059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46999B5F290B04CD0087F059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12CF2BAB291BB600006D8786 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46999B68290B04CD0087F059 /* LaunchScreen.storyboard */,
+				46999B63290B04CD0087F059 /* Main.storyboard */,
+				46999B61290B04CD0087F059 /* ViewController.swift */,
+				46999B5D290B04CD0087F059 /* AppDelegate.swift */,
+				46999B5F290B04CD0087F059 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		12CF2BAC291BB81E006D8786 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46999B66290B04CD0087F059 /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		12CF2BAD291BB8B2006D8786 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12CF2BAF291BB93F006D8786 /* Item.swift */,
+				12CF2BB1291BB9F7006D8786 /* Section.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12CF2BAE291BB8BE006D8786 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		46999B51290B04CD0087F059 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +96,10 @@
 		46999B5C290B04CD0087F059 /* Advanced-Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				46999B5D290B04CD0087F059 /* AppDelegate.swift */,
-				46999B5F290B04CD0087F059 /* SceneDelegate.swift */,
-				46999B61290B04CD0087F059 /* ViewController.swift */,
-				46999B63290B04CD0087F059 /* Main.storyboard */,
-				46999B66290B04CD0087F059 /* Assets.xcassets */,
-				46999B68290B04CD0087F059 /* LaunchScreen.storyboard */,
+				12CF2BAB291BB600006D8786 /* App */,
+				12CF2BAE291BB8BE006D8786 /* Cells */,
+				12CF2BAD291BB8B2006D8786 /* Models */,
+				12CF2BAC291BB81E006D8786 /* Utilities */,
 				46999B6B290B04CD0087F059 /* Info.plist */,
 			);
 			path = "Advanced-Autolayout";
@@ -138,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CF2BB2291BB9F8006D8786 /* Section.swift in Sources */,
+				12CF2BB0291BB93F006D8786 /* Item.swift in Sources */,
 				46999B62290B04CD0087F059 /* ViewController.swift in Sources */,
 				46999B5E290B04CD0087F059 /* AppDelegate.swift in Sources */,
 				46999B60290B04CD0087F059 /* SceneDelegate.swift in Sources */,
